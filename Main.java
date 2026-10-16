@@ -47,7 +47,8 @@ public class Main {
    System.out.print(" together.");
    System.out.print("Verb used first : ");
    String verb1String = scan.nextLine();
-   System.out.println(" Before " + verb2 );
+   System.out.println(" Before " + verb1String );
+   
    
 
    }
