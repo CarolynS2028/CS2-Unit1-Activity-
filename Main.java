@@ -27,7 +27,12 @@ public class Main {
       //Part B
       Scanner scan = new Scanner(System.in);
 
-      
+
+      System.out.println();
+      String name = scan.nextLine();
+      System.out.println("The other day, me and my ");
+
+
 
    
      
@@ -38,6 +43,8 @@ public class Main {
        
       
 
+   /*
+   
    System.out.print("Title used : ");
    String titleString = scan.nextLine();
    System.out.println("The other day, me and my " + titleString );
@@ -48,8 +55,10 @@ public class Main {
    System.out.print("Verb used first : ");
    String verb1String = scan.nextLine();
    System.out.println(" Before " + verb1String );
+
+   */
    
-   
+
 
    }
 }
