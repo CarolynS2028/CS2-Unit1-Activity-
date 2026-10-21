@@ -29,35 +29,24 @@ public class Main {
 
 
       System.out.println();
+      System.out.println("Name used : ");
       String name = scan.nextLine();
-      System.out.println("The other day, me and my ");
+      System.out.println("Place Name :");  
+      String place1String = scan.nextLine();
+      System.out.print("Adjective used first : ");
+      String adj1String = scan.nextLine();
+     System.out.println("Other place name : ");
+     String place2String = scan.nextLine();
+     System.out.println("Verb used: ");
+     String verb1String = scan.nextLine();
+     System.out.println("Second verb used: ");
+     String verb2String = scan.nextLine();
+     System.out.println("Noun used: ");
+     String noun1String = scan.nextLine();
 
-
-
-   
-     
-     /* System.out.println("Hello. What is your name?");
-      String name = scan.nextLine();
-      System.out.println("Hello, " + name);  
-      */ 
-       
-      
-
-   /*
-   
-   System.out.print("Title used : ");
-   String titleString = scan.nextLine();
-   System.out.println("The other day, me and my " + titleString );
-   System.out.println("Place Name :");  
-   String place1String = scan.nextLine();
-   System.out.print(" went to see a " + place1String);
-   System.out.print(" together.");
-   System.out.print("Verb used first : ");
-   String verb1String = scan.nextLine();
-   System.out.println(" Before " + verb1String );
-
-   */
-   
+  System.out.println("The other day, me and my " + name + 
+         " went to see a " + place1String + " together. Before heading there, we went to see a really " + adj1String + " " + place2String + " that she's been " + verb1String + " to tell me about. She told me to get the things she suspected I would like, knowing how I can be often picky. I " + verb2String + " it and we took many " + noun1String + " together before we finally headed to see the " + place1String + " " + "and enjoyed that as well." );
+   scan.close();
 
 
    }
